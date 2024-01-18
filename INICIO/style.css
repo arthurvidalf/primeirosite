@@ -1,0 +1,89 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+header {
+    background-color: black;
+    color: white;
+    font-family: Kaushan Script, cursive; Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+    width: 85px;
+   
+}
+
+nav > .menu{
+    background-color: blue;
+    display: none;
+    width: 60px;
+    
+
+}
+
+nav:hover > .menu{
+    display: block;
+}
+
+a{
+    text-decoration: none; /*TIRAR O SUBLINHADO DOS LINKS*/
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+form{
+    background-color: white;
+    color: black;
+    height: 220px;
+}
+
+div{
+    display: inline-block; /*TUDO NA MESMA LINHA*/
+    background-color: red;
+    border: 3px solid yellow;
+    text-align: center;
+    height: 220px;
+    width: 200px;
+}
+
+#d1:hover{
+    background-color: yellow;
+    color: black;
+    font-weight: bolder;
+}
+
+#d2:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+}
+
+#d3:hover{
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+}
+
+/*    ANATOMIA DE UMA CAIXA
+todo conteúdo tem altura e largura
+padding -> preenchimento entre a borda e o conteúdo -> espaço interno
+margin -> espaço da borda pra fora/*
+
+/* TIPOS DE CAIXA
+box-level -> sempre se inicia em uma linha nova e sempre ocupa a largura total da tela (do viewport)EX: DIV, P, NAV, H1-H6, FORM, MAIN, HEADER, FOOTER
+inline-level -> não pula linha, não preenche a tela toda e não quebra linha. EX: SPAN, LABEL, BUTTON, INPUT, A */
+
+teste
+
